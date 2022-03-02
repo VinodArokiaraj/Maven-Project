@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  <parameter name="name" value="Vinod"></parameter>
+  <parameter name="DOB" value="14/3/1992"></parameter>
+  <parameter name="age" value="29"></parameter>
+  <parameter name="gender" value="Male"></parameter>
+  <parameter name="surname" value="Vincent Nicolas"></parameter>
+  <parameter name="nationality" value="Indian"></parameter>
+  <parameter name="qualification" value="B.E (EEE)"></parameter>
+  
+  <classes>
+  
+  <class name="com.testing_properties.Parameterized_Concept"></class>
+  <class name="com.testing_properties.Parameterized_Concept1"></class>
+  
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
